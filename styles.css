@@ -1,0 +1,322 @@
+body {
+    font-family: 'IBM Plex Sans Thai Looped';
+    margin: 10px;
+    padding: 10px;
+}
+
+.navbar a {
+    color: #000; /* Change link color to black */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.a-list {
+    color: #000; /* Change link color to black */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.menu {
+    list-style-type: none; /* Remove default list styles */
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline; /* Display list items horizontally */
+}
+
+.owl-carousel a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu li a {
+    display: inline-block;
+    padding: 10px 20px; /* Add padding to each menu item */
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s ease;
+}
+
+.menu li a:hover {
+    color: #555; /* Change color on hover */
+}
+
+.navbar a {
+    color: #000; /* Change link color to black */
+    text-decoration: none; /* Remove underline from links */
+}
+
+header {
+    background-image: linear-gradient(to right, rgba(241, 239, 239, 0.7), rgba(194, 180, 166, 0.7));
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    align-items: center; /* Vertically center items */
+    font-size: 22px;
+}
+
+.nav-center {
+    flex-grow: 2; /* Occupy more space than left and right */
+    text-align: center; /* Center align content */
+}
+
+.a-list:hover {
+    color: #ca3b3b; /* Change color on hover */
+    transition: color 0.3s ease;
+}
+
+.intro-content-city {
+    font-size: 18px;
+    display: flex;
+    gap: 20px;
+}
+
+.content-wrapper {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.div-maincontent-left {
+    flex: 1;
+}
+
+.table-wrapper {
+    flex: 1;
+}
+
+.small-image {
+    width: 700px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px;
+}
+
+.ordered-list,
+.unordered-list {
+    flex-grow: 1;
+}
+
+.dark-mode .a-list {
+    color: #ffffff; /* Change link color to black */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.dark-mode .owl-carousel a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.dark-mode .a-list:hover {
+    color: #ca3b3b; /* Change color on hover */
+    transition: color 0.3s ease;
+}
+
+.nav-left {
+    flex-grow: 1;
+    margin-left: 40px;
+}
+
+.nav-right a {
+    color: #000000;
+    margin-right: 40px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    
+}
+
+.nav-right a:hover {
+    color: #555; /* Change color on hover */
+}
+
+.logo img {
+    width: 100px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.nav-right {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.main-content {
+    max-width: 991px;
+    margin: 50px auto;
+}
+
+.main-content-city {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.profile-image {
+    max-width: 300px; /* Adjust the max-width of the image */
+    height: auto; /* Maintain aspect ratio */
+    float: right;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.intro-content {
+    margin: 50px auto;
+    font-size: 20px; /* Example: Set the ` size */
+    text-align: center; /* Center text within the div */
+}
+
+.intro-content p{
+    text-align: left;
+}
+
+.stories-sep img{
+    max-width: 450px;
+    height: 300px;
+}
+.stories-sep {
+    border-top: 2px solid rgba(0, 0, 0, 0.2); /* Transparent black underline */
+    text-align: center; /* Center text within the div */
+}
+
+footer {
+    display: flex;
+    background-image: linear-gradient(to right, rgba(241, 239, 239, 0.7), rgba(194, 180, 166, 0.7));
+    padding: 20px 0;
+}
+
+.nav-right-foot {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right-foot img {
+    max-width: 30px;
+    height: auto;
+}
+
+.nav-right-foot a {
+    color: #000000;
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+.story-item img{
+    max-width: 450px;
+    height: 300px;
+}
+
+.copyright {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    border-collapse: collapse; /* Collapse borders to avoid double borders */
+}
+
+th, td {
+    border: 1px solid #ccc; /* Add a 1px solid border with a light gray color */
+    padding: 8px; /* Add padding inside cells */
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.dark-mode {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Light text color */
+}
+
+.dark-mode .navbar a {
+    color: #fff; /* Light color for links */
+}
+
+.dark-mode header {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)); /* Darker gradient */
+}
+
+.dark-mode footer {
+    background-color: #333; /* Match the background color of the navigation bar */
+    color: #fff; /* Match the text color */
+}
+
+.dark-mode footer a {
+    color: #fff; /* Match link color */
+}
+
+.dark-mode footer a:hover {
+    color: #ccc; /* Change link color on hover */
+}
+
+.dark-mode .nav-right a {
+    color: #fff; /* White color for links in dark mode */
+}
+
+.dark-mode .nav-right a:hover {
+    color: #ccc; /* Light gray color on hover in dark mode */
+}
+
+/* Dark mode styles */
+.dark-mode .slider {
+    background-color: #fffcfc; /* Dark background color for slider in dark mode */
+}
+
+.dark-mode .slider:before {
+    background-color: #333; /* Dark color for slider button in dark mode */
+}
+
+.slider {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    background-color: #050404;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.slider-checkbox {
+    display: none;
+}
+
+
+.slider::before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.slider-checkbox:checked + .slider {
+    background-color: #2196F3; /* Toggle color when checked */
+}
+
+.slider-checkbox:checked + .slider::before {
+    transform: translateX(26px); /* Move slider button to the right when checked */
+}
+
+.slider {
+    position: flex;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #191515;
+    border-radius: 34px;
+    transition: background-color 0.3s;
+}
