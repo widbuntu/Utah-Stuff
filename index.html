@@ -119,6 +119,26 @@
         </section>
         
     </main>
+    <form class="contactForm" id="contactForm">
+        <h2>Contact</h2>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" placeholder="First Name"><br>
+        
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" placeholder="Last Name"><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Email"><br>
+        
+        <label for="confirmEmail">Confirm Email:</label>
+        <input type="email" id="confirmEmail" name="confirmEmail" placeholder="Confirm Email"><br>
+        <span id="emailError" class="error">Email addresses do not match.</span><br>
+        
+        <label for="question">Question:</label>
+        <textarea id="question" name="question" placeholder="Ask your question here"></textarea><br>
+        
+        <button type="button" onclick="validateForm()">Submit</button>
+    </form>
     <footer>
         <!-- Footer content -->
         <div class="nav-left">
@@ -145,6 +165,7 @@
         </div>
     </footer>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
     <script src="script.js"></script>
     <script src="dm.js"></script>
