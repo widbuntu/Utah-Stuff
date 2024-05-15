@@ -130,7 +130,7 @@ nav {
 }
 
 .logo img {
-    width: 100px; /* Adjust width as needed */
+    width: 100px; /* Adjust width */
     height: auto; /* Maintain aspect ratio */
 }
 
@@ -166,7 +166,7 @@ nav {
 
 .intro-content {
     margin: 50px auto;
-    font-size: 20px; /* Example: Set the ` size */
+    font-size: 20px; 
     text-align: center; /* Center text within the div */
 }
 
@@ -349,11 +349,9 @@ th {
 }
 
 @media only screen and (max-width: 600px) {
-    /* Styles for screens with a maximum width of 600px (typical mobile devices) */
     body {
         font-size: 16px; /* Adjust font size for better readability on smaller screens */
         margin: 0; /* Remove default margin */
         padding: 0; /* Remove default padding */
     }
-    /* Add more specific styles for other elements as needed */
 }
