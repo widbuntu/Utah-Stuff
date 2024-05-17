@@ -156,14 +156,6 @@ nav {
     align-items: flex-start;
 }
 
-.profile-image {
-    max-width: 300px; /* Adjust the max-width of the image */
-    height: auto; /* Maintain aspect ratio */
-    float: right;
-    margin-top: 20px;
-    overflow: hidden;
-}
-
 .intro-content {
     margin: 50px auto;
     font-size: 20px; 
@@ -173,7 +165,12 @@ nav {
 .intro-content p{
     text-align: left;
 }
-
+#highlight {
+    background-color: #f0f0f0; /* Light grey background */
+    padding: 20px; /* Add some padding */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
 .stories-sep img{
     max-width: 450px;
     height: 300px;
@@ -244,14 +241,23 @@ footer {
     text-align: center;
 }
 
+.float-image {
+    float: left;
+    width: 400px; 
+    height: auto; 
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
 table {
     margin-left: auto;
-    border-collapse: collapse; /* Collapse borders to avoid double borders */
+    border-collapse: collapse;
 }
 
 th, td {
-    border: 1px solid #ccc; /* Add a 1px solid border with a light gray color */
-    padding: 8px; /* Add padding inside cells */
+    border: 1px solid #ccc;
+    padding: 8px;
 }
 
 th {
